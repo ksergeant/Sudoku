@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0AE0D7C5206303D0001711E7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0D7C4206303D0001711E7 /* main.cpp */; };
+		0AE0D7CE2063F79D001711E7 /* Fonction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0D7CD2063F79D001711E7 /* Fonction.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		0AE0D7C1206303D0001711E7 /* Sudoku3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sudoku3; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE0D7C4206303D0001711E7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AE0D7CB2063F74D001711E7 /* Sudoku3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sudoku3; sourceTree = "<group>"; };
+		0AE0D7CC2063F771001711E7 /* Fonction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fonction.h; sourceTree = "<group>"; };
+		0AE0D7CD2063F79D001711E7 /* Fonction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fonction.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		0AE0D7B8206303D0001711E7 = {
 			isa = PBXGroup;
 			children = (
+				0AE0D7CB2063F74D001711E7 /* Sudoku3 */,
 				0AE0D7C3206303D0001711E7 /* Sudoku3 */,
 				0AE0D7C2206303D0001711E7 /* Products */,
 			);
@@ -58,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				0AE0D7C4206303D0001711E7 /* main.cpp */,
+				0AE0D7CC2063F771001711E7 /* Fonction.h */,
+				0AE0D7CD2063F79D001711E7 /* Fonction.cpp */,
 			);
 			path = Sudoku3;
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AE0D7C5206303D0001711E7 /* main.cpp in Sources */,
+				0AE0D7CE2063F79D001711E7 /* Fonction.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +256,7 @@
 				0AE0D7CA206303D1001711E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
