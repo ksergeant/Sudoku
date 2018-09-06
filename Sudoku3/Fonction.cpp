@@ -86,26 +86,28 @@ void fichierSudoku(vector<Case> &sudoku, string nomFichier){
         
         
         int compteurPosVecteur = 0;
-        string ligne = "";
-        
-        while(getline(monFlux,ligne)){
+        char charactere;
+       
             
-            for (int i = 0; i<9; i++){
+            for (int i = 0; i<89; i++){
+                monFlux.get(charactere);
+                if(charactere=='\n'){
+                    //cout << "Retour a la ligne"<<endl;
                 
-                
-                sudoku[compteurPosVecteur].valeur = ligne;
-                compteurPosVecteur = compteurPosVecteur + 1;
+                }
+                else{
+                    int n = charactere-48;
+                    sudoku[compteurPosVecteur].valeur = n;
+                    
+                    compteurPosVecteur = compteurPosVecteur + 1;
+                }
             }
-            
-        }
-        
     }
     
     else{
         cout << "ERREUR: Impossible d'ouvrir le fichier." << endl;
     }
 
-    
 }
 
 
@@ -208,13 +210,6 @@ void scanBlocks(vector<Case> &sudoku, int pos, int Block[]){
             j = j + 1;
     
         }
-    
-    cout << "Candidats : " ;
-    
-    for (int v = 0; v<9; v++){
-    
-        cout << candidat[v];
-    }
     
 }
 

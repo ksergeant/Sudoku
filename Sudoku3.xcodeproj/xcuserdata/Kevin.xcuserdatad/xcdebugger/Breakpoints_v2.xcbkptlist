@@ -6,16 +6,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sudoku3/Fonction.cpp"
-            timestampString = "544496961.656162"
+            timestampString = "557945285.035813"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "175"
-            endingLineNumber = "175"
-            landmarkName = "scanBlocks(vector&lt;Case&gt; &amp;sudoku, int pos, int Block[])"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "fichierSudoku(vector&lt;Case&gt; &amp;sudoku, string nomFichier)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sudoku3/Fonction.cpp"
+            timestampString = "557945855.7114871"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "afficheSudoku(vector&lt;Case&gt; &amp;sudoku)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
